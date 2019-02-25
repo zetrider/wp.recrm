@@ -1,0 +1,4 @@
+.DS_Store
+/composer.lock
+/languages/recrm-backup-*
+/languages/recrm-ru_RU-backup-*

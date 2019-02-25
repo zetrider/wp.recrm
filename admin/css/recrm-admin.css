@@ -1,0 +1,35 @@
+.recrm_meta_box_properties .gallery .items .item {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px #ddd solid;
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    background-size: cover;
+}
+
+.recrm_meta_box_properties .proeprties .property {
+    padding: 5px 0;
+    clear: both;
+}
+.recrm_meta_box_properties .proeprties .property:before,
+.recrm_meta_box_properties .proeprties .property:after {
+    display: table;
+    line-height: 0px;
+    content: '';
+}
+.recrm_meta_box_properties .proeprties .property:after {
+    clear: both;
+}
+.recrm_meta_box_properties .proeprties .property .property-name {
+    width: 30%;
+    float: left;
+}
+.recrm_meta_box_properties .proeprties .property .property-value {
+    width: 70%;
+    float: right;
+}

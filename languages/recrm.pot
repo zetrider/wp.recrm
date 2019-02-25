@@ -1,0 +1,845 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ReCRM\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-05 12:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class-recrm-i18n.php:42 includes/class-recrm-i18n.php:198
+msgid "ID"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:43
+msgid "ID of the building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:44
+msgid "Agent ID"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:45
+msgid "ID of the city"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:46
+msgid "ID of the district"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:47
+msgid "Metro ID"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:48
+msgid "ID of the owner"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:49
+msgid "ID of the country"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:50
+msgid "Property type ID"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:51
+msgid "Meta title"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:52
+msgid "Url"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:53
+msgid "Zoom maps"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:54
+msgid "Address"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:55
+msgid "Balcony"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:56
+msgid "Bathhouse"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:57
+msgid "Pool"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:58
+msgid "Accomplishment of territory"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:59
+msgid "Nearest highway"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:60
+msgid "Currency"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:61
+msgid "The bathroom"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:62
+msgid "Ventilation"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:63
+msgid "The view from the window"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:64
+msgid "Domestic market"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:65
+msgid "Water"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:66
+msgid "Mortgage option"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:67
+msgid "Installment option"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:68
+msgid "Take with children"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:69
+msgid "Take with animals"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:70
+msgid "Ceiling height"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:71
+msgid "Gas"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:72
+msgid "Garage / Parking"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:73
+msgid "City"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:74
+msgid "Hot offer"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:75
+msgid "Ready business"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:76
+msgid "Real estate group"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:77
+msgid "Date and time of change"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:78
+msgid "Creation date and time"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:79
+msgid "Date of change"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:80
+msgid "Date of last repair"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:81
+msgid "Creation date"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:82
+msgid "Longitude"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:83
+msgid "Lease type"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:84
+msgid "W/d branch"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:85
+msgid "Living area"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:86
+msgid "Header"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:87
+msgid "Suburban real estate"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:88
+msgid "Deposit in months"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:89
+msgid "Foreign real estate"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:90
+msgid "Internet"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:91
+msgid "The infrastructure of the area"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:92
+msgid "Land use"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:93
+msgid "Cadastral number of the object"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:94
+msgid "Sewerage"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:95
+msgid "The building class"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:96
+msgid "Number of loading zones"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:97
+msgid "Number of apartments in the building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:98
+msgid "Number of elevators"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:99
+msgid "Number of Parking spaces"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:100
+msgid "The agent's Commission"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:101
+msgid "The Commission from the owner"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:102
+msgid "Rooms"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:103
+msgid "Conditioner"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:104
+msgid "Year-round access"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:105
+msgid "Elevator"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:106
+msgid "Loggia"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:107
+msgid "Wall material"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:108
+msgid "Location"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:109
+msgid "Meta description"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:110
+msgid "Meta keywords"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:111
+msgid "Minutes walk to metro (integer)"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:112
+msgid "The name of the building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:113
+msgid "The purpose of the project"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:114
+msgid "The presence of furniture in the living room"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:115
+msgid "The presence of furniture in the kitchen"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:116
+msgid "Availability of washing machine"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:117
+msgid "The presence of the security Deposit"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:118
+msgid "Having a refrigerator"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:119
+msgid "Direction"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:120
+msgid "Human settlement"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:121
+msgid "New building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:122
+msgid "House number"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:123
+msgid "Encumbrances"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:124
+msgid "The object is locked"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:125
+msgid "Object hidden"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:126
+msgid "Windows"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:127
+msgid "Environment"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:128
+msgid "Telephone operator"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:129
+msgid "Description"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:130
+msgid "From the developer"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:131
+msgid "Display the price"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:132
+msgid "Heating"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:133
+msgid "Office space"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:134
+msgid "Burglar alarm"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:135
+msgid "Ramp"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:136
+msgid "Parking - view"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:137
+msgid "Private/shared Parking"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:138
+msgid "Layout"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:139
+msgid "The maneuvering area for heavy vehicles"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:140
+msgid "Area"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:141
+msgid "Land plot area"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:142
+msgid "Room area"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:143
+msgid "Building rooms size"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:144
+msgid "Kitchen area, m2"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:145
+msgid "Area by rooms"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:146
+msgid "Loading equipment"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:147
+msgid "Built"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:148
+msgid "Prepayment months"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:149
+msgid "Accessory"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:150
+msgid "Separate bathroom"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:151
+msgid "District"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:152
+msgid "Region district"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:153
+msgid "Distance to ring road"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:154
+msgid "Distance from city, km"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:155
+msgid "Transport distance to metro, min."
+msgstr ""
+
+#: includes/class-recrm-i18n.php:156
+msgid "Region"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:157
+msgid "Relief"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:158
+msgid "Fire extinguishing system"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:159
+msgid "Stage of construction"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:160
+msgid "Subway station"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:161
+msgid "Status"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:162
+msgid "Cost"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:163
+msgid "Country"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:164
+msgid "Sublease"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:165
+msgid "TV"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:166
+msgid "The current status of the project"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:167
+msgid "Type"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:168
+msgid "The VAT type"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:169
+msgid "Type of building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:170
+msgid "Type of land"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:171
+msgid "Type of heating"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:172
+msgid "The type of floor"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:173
+msgid "Offer type"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:174
+msgid "Type of transaction"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:175
+msgid "Toponym"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:176
+msgid "Street"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:177
+msgid "The shape of the plot"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:178 admin/class-recrm-admin.php:489
+msgid "Photos"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:179
+msgid "Photos of the building"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:180
+msgid "Photos of layouts"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:181
+msgid "Photo"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:182 includes/class-recrm-i18n.php:183
+msgid "Price per m2"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:184
+msgid "Latitude"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:185
+msgid "Exclusive contract with the owner"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:186
+msgid "Electric power, kw"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:187
+msgid "Electricity"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:188
+msgid "Floor"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:189
+msgid "Floors"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:199
+msgid "Name"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:200
+msgid "EMail"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:201
+msgid "Group name"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:202
+msgid "Phone"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:203
+msgid "Modile phone"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:204
+msgid "Position"
+msgstr ""
+
+#: includes/class-recrm-i18n.php:205
+msgid "Role"
+msgstr ""
+
+#: includes/class-recrm-import.php:177
+msgid "API not responding"
+msgstr ""
+
+#: includes/class-recrm-import.php:210
+msgid "API key is not valid"
+msgstr ""
+
+#: includes/class-recrm-import.php:388
+msgid "No statuses selected in plugin settings"
+msgstr ""
+
+#: includes/class-recrm-post-types.php:82
+msgid "Estate  category"
+msgstr ""
+
+#: includes/class-recrm-post-types.php:93
+#: includes/class-recrm-post-types.php:94
+#: includes/class-recrm-post-types.php:95
+msgid "Estate"
+msgstr ""
+
+#: includes/class-recrm-post-types.php:132
+msgid "Agent  category"
+msgstr ""
+
+#: includes/class-recrm-post-types.php:143
+#: includes/class-recrm-post-types.php:145
+msgid "Agents"
+msgstr ""
+
+#: includes/class-recrm-post-types.php:144
+msgid "Agent"
+msgstr ""
+
+#: admin/class-recrm-admin.php:93
+msgid "ReCRM Settings"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-recrm-admin.php:93
+msgid "ReCRM"
+msgstr ""
+
+#: admin/class-recrm-admin.php:94
+msgid "Estate types"
+msgstr ""
+
+#: admin/class-recrm-admin.php:94
+msgid "Estate Types & Category"
+msgstr ""
+
+#: admin/class-recrm-admin.php:95
+msgid "Estate props"
+msgstr ""
+
+#: admin/class-recrm-admin.php:138
+msgid "API"
+msgstr ""
+
+#: admin/class-recrm-admin.php:143
+msgid ""
+"API key ReCRM. For more secure key storage, you can define a constant "
+"define(\"RECRM_IMPORT_API_KEY\", \"YOUR_KEY\");"
+msgstr ""
+
+#: admin/class-recrm-admin.php:149
+msgid "Key"
+msgstr ""
+
+#: admin/class-recrm-admin.php:154
+msgid "Import images with watermark"
+msgstr ""
+
+#: admin/class-recrm-admin.php:157
+msgid "Watermark"
+msgstr ""
+
+#: admin/class-recrm-admin.php:162
+msgid "Import of hidden estate"
+msgstr ""
+
+#: admin/class-recrm-admin.php:165
+msgid "Hidden estate"
+msgstr ""
+
+#: admin/class-recrm-admin.php:170
+msgid "Import active estate"
+msgstr ""
+
+#: admin/class-recrm-admin.php:173
+msgid "Status Active"
+msgstr ""
+
+#: admin/class-recrm-admin.php:178
+msgid "Import successful estate"
+msgstr ""
+
+#: admin/class-recrm-admin.php:181
+msgid "Status Successful"
+msgstr ""
+
+#: admin/class-recrm-admin.php:186
+msgid "Import unsuccessful estate"
+msgstr ""
+
+#: admin/class-recrm-admin.php:189
+msgid "Status Unsuccessful"
+msgstr ""
+
+#: admin/class-recrm-admin.php:191
+msgid "Permalink Settings"
+msgstr ""
+
+#: admin/class-recrm-admin.php:198
+msgid "Agent with taxonomy"
+msgstr ""
+
+#: admin/class-recrm-admin.php:203
+#, php-format
+msgid "Agents prefix for url, example: agents, it will by like %s"
+msgstr ""
+
+#: admin/class-recrm-admin.php:206
+msgid "Agents prefix"
+msgstr ""
+
+#: admin/class-recrm-admin.php:213
+msgid "Estate with taxonomy"
+msgstr ""
+
+#: admin/class-recrm-admin.php:218
+#, php-format
+msgid "Estate prefix for url, example: estate, it will by like %s"
+msgstr ""
+
+#: admin/class-recrm-admin.php:221
+msgid "Estate prefix"
+msgstr ""
+
+#: admin/class-recrm-admin.php:234
+msgid "Estate type relation with category"
+msgstr ""
+
+#: admin/class-recrm-admin.php:259
+msgid "Please, enable tax for Estate in settings page"
+msgstr ""
+
+#: admin/class-recrm-admin.php:262 admin/class-recrm-admin.php:272
+#: admin/class-recrm-admin.php:333
+msgid "Error"
+msgstr ""
+
+#: admin/class-recrm-admin.php:269
+msgid "Please, create a estate category"
+msgstr ""
+
+#: admin/class-recrm-admin.php:279
+msgid "Please, enter API Key"
+msgstr ""
+
+#: admin/class-recrm-admin.php:293
+msgid "Type:"
+msgstr ""
+
+#: admin/class-recrm-admin.php:297
+msgid "Group:"
+msgstr ""
+
+#: admin/class-recrm-admin.php:322
+msgid "The name of the properties"
+msgstr ""
+
+#: admin/class-recrm-admin.php:330
+msgid "Please first import the objects"
+msgstr ""
+
+#: admin/class-recrm-admin.php:490
+msgid "Layouts"
+msgstr ""
+
+#: admin/class-recrm-admin.php:491
+msgid "Building"
+msgstr ""
+
+#: admin/class-recrm-admin.php:513
+msgid "Gallery is empty"
+msgstr ""
+
+#: admin/class-recrm-admin.php:517 admin/class-recrm-admin.php:562
+msgid "Properties"
+msgstr ""
+
+#: admin/class-recrm-admin.php:530 admin/class-recrm-admin.php:575
+msgid "Yes"
+msgstr ""
+
+#: admin/class-recrm-admin.php:534 admin/class-recrm-admin.php:579
+msgid "No"
+msgstr ""
+
+#. Description of the plugin
+msgid "ReCRM Description of plugin"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://01pr.ru/solutions/recrm-import-wp/"
+msgstr ""
+
+#. Author of the plugin
+msgid "01pr"
+msgstr ""
