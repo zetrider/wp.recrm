@@ -9,6 +9,8 @@
  * @package    ReCRM
  */
 
+defined( 'ABSPATH' ) or die();
+
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
     exit;

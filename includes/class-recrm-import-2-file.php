@@ -10,6 +10,8 @@
  * @subpackage recrm/includes
  */
 
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Import_2_File extends Recrm_Import {
 
     protected $upload_tmp;

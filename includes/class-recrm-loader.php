@@ -13,6 +13,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Loader {
 
     /**

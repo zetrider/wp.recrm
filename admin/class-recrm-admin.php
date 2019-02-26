@@ -12,6 +12,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Admin {
 
     /**
@@ -101,7 +104,7 @@ class Recrm_Admin {
      * @since    1.0.0
      */
     public function admin_menu_display_settings() {
-        if($_GET['settings-updated'] == true)
+        if(isset($_GET['settings-updated']) AND $_GET['settings-updated'] == true)
         {
             flush_rewrite_rules();
         }
@@ -147,6 +150,14 @@ class Recrm_Admin {
             'default'     => defined("RECRM_IMPORT_API_KEY") ? RECRM_IMPORT_API_KEY : "",
         );
         add_settings_field( 'api_key', __( 'Key', 'recrm' ), array( $this, 'recrm_settings_fill' ), 'recrm', 'recrm_settings_api', $params );
+
+        $params = array(
+            'type'      => 'checkbox',
+            'id'        => 'cron_active',
+            'desc'      => __( 'Import active', 'recrm' ),
+            'label_for' => 'cron_active',
+        );
+        add_settings_field( 'cron_active', __( 'Cron', 'recrm' ), array( $this, 'recrm_settings_fill' ), 'recrm', 'recrm_settings_api', $params );
 
         $params = array(
             'type'      => 'checkbox',
@@ -238,7 +249,7 @@ class Recrm_Admin {
         $groups   = array();
 
         // todo
-        if($_GET['page'] == 'recrm_estate_types')
+        if(isset($_GET['page']) AND $_GET['page'] == 'recrm_estate_types')
         {
             $terms = get_terms( array(
                 'taxonomy'   => 'recrm_estate_tax',
@@ -395,11 +406,11 @@ class Recrm_Admin {
 
             case 'text':
                 $value = $options[$id] = esc_attr( stripslashes( $options[$id] ) );
-                if($disabled === true AND $default)
+                if(isset($disabled) AND $disabled === true AND $default)
                 {
                     $value = $default;
                 }
-                echo '<input class="regular-text" type="text" id="' . $id . '" name="' . $option_name . '[' . $id . ']" value="' . $value . '" placeholder="' . esc_attr($placeholder) . '"'.(($disabled === true) ? ' disabled' : '').' />';
+                echo '<input class="regular-text" type="text" id="' . $id . '" name="' . $option_name . '[' . $id . ']" value="' . $value . '" placeholder="' . (isset($placeholder) ? esc_attr($placeholder) : '') . '"'.((isset($disabled) AND $disabled === true) ? ' disabled' : '').' />';
                 echo (!empty($desc)) ? '<br /><span class="description">' . $desc . '</span>' : '';
             break;
 
@@ -417,7 +428,7 @@ class Recrm_Admin {
             break;
 
             case 'select':
-                $multiple = ($multiple == 'on') ? ' multiple=""' :  '';
+                $multiple = (isset($multiple) AND $multiple == 'on') ? ' multiple=""' :  '';
                 echo '<select id="' . $id . '" name="' . $option_name . '[' . $id . ']"' . $multiple . '>';
                 foreach ($values as $val => $name) {
 

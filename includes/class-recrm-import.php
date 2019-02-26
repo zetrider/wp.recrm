@@ -10,6 +10,8 @@
  * @subpackage recrm/includes
  */
 
+defined( 'ABSPATH' ) or die();
+
 use \Curl\MultiCurl;
 use \Curl\Curl;
 

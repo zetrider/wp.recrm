@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ReCRM\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 12:29+0000\n"
-"PO-Revision-Date: 2019-02-05 12:30+0000\n"
+"POT-Creation-Date: 2019-02-26 05:11+0000\n"
+"PO-Revision-Date: 2019-02-26 05:12+0000\n"
 "Last-Translator: Sitemech <zetrider@bk.ru>\n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -13,685 +13,685 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.2.0; wp-5.0.3"
+"X-Loco-Version: 2.2.0; wp-5.1"
 
-#: includes/class-recrm-i18n.php:42 includes/class-recrm-i18n.php:198
+#: includes/class-recrm-i18n.php:45 includes/class-recrm-i18n.php:201
 msgid "ID"
 msgstr "ID"
 
-#: includes/class-recrm-i18n.php:43
+#: includes/class-recrm-i18n.php:46
 msgid "ID of the building"
 msgstr "ID  здания"
 
-#: includes/class-recrm-i18n.php:44
+#: includes/class-recrm-i18n.php:47
 msgid "Agent ID"
 msgstr "ID агента"
 
-#: includes/class-recrm-i18n.php:45
+#: includes/class-recrm-i18n.php:48
 msgid "ID of the city"
 msgstr "ID города"
 
-#: includes/class-recrm-i18n.php:46
+#: includes/class-recrm-i18n.php:49
 msgid "ID of the district"
 msgstr "ID района"
 
-#: includes/class-recrm-i18n.php:47
+#: includes/class-recrm-i18n.php:50
 msgid "Metro ID"
 msgstr "ID метро"
 
-#: includes/class-recrm-i18n.php:48
+#: includes/class-recrm-i18n.php:51
 msgid "ID of the owner"
 msgstr "ID собственника"
 
-#: includes/class-recrm-i18n.php:49
+#: includes/class-recrm-i18n.php:52
 msgid "ID of the country"
 msgstr "ID страны"
 
-#: includes/class-recrm-i18n.php:50
+#: includes/class-recrm-i18n.php:53
 msgid "Property type ID"
 msgstr "ID типа недвижимости"
 
-#: includes/class-recrm-i18n.php:51
+#: includes/class-recrm-i18n.php:54
 msgid "Meta title"
 msgstr "Meta titlle"
 
-#: includes/class-recrm-i18n.php:52
+#: includes/class-recrm-i18n.php:55
 msgid "Url"
 msgstr "Url"
 
-#: includes/class-recrm-i18n.php:53
+#: includes/class-recrm-i18n.php:56
 msgid "Zoom maps"
 msgstr "Zoom карты"
 
-#: includes/class-recrm-i18n.php:54
+#: includes/class-recrm-i18n.php:57
 msgid "Address"
 msgstr "Адрес"
 
-#: includes/class-recrm-i18n.php:55
+#: includes/class-recrm-i18n.php:58
 msgid "Balcony"
 msgstr "Балокон"
 
-#: includes/class-recrm-i18n.php:56
+#: includes/class-recrm-i18n.php:59
 msgid "Bathhouse"
 msgstr "Баня"
 
-#: includes/class-recrm-i18n.php:57
+#: includes/class-recrm-i18n.php:60
 msgid "Pool"
 msgstr "Бассейн"
 
-#: includes/class-recrm-i18n.php:58
+#: includes/class-recrm-i18n.php:61
 msgid "Accomplishment of territory"
 msgstr "Благоустройство территории"
 
-#: includes/class-recrm-i18n.php:59
+#: includes/class-recrm-i18n.php:62
 msgid "Nearest highway"
 msgstr "Ближайшее шоссе"
 
-#: includes/class-recrm-i18n.php:60
+#: includes/class-recrm-i18n.php:63
 msgid "Currency"
 msgstr "Валюта"
 
-#: includes/class-recrm-i18n.php:61
+#: includes/class-recrm-i18n.php:64
 msgid "The bathroom"
 msgstr "Вананя комната"
 
-#: includes/class-recrm-i18n.php:62
+#: includes/class-recrm-i18n.php:65
 msgid "Ventilation"
 msgstr "Вентиляция"
 
-#: includes/class-recrm-i18n.php:63
+#: includes/class-recrm-i18n.php:66
 msgid "The view from the window"
 msgstr "Вид из окна"
 
-#: includes/class-recrm-i18n.php:64
+#: includes/class-recrm-i18n.php:67
 msgid "Domestic market"
 msgstr "Внутренний рынок"
 
-#: includes/class-recrm-i18n.php:65
+#: includes/class-recrm-i18n.php:68
 msgid "Water"
 msgstr "Вода"
 
-#: includes/class-recrm-i18n.php:66
+#: includes/class-recrm-i18n.php:69
 msgid "Mortgage option"
 msgstr "Возможность ипотеки"
 
-#: includes/class-recrm-i18n.php:67
+#: includes/class-recrm-i18n.php:70
 msgid "Installment option"
 msgstr "Возможность рассрочки"
 
-#: includes/class-recrm-i18n.php:68
+#: includes/class-recrm-i18n.php:71
 msgid "Take with children"
 msgstr "Возьмут с детьми"
 
-#: includes/class-recrm-i18n.php:69
+#: includes/class-recrm-i18n.php:72
 msgid "Take with animals"
 msgstr "Возьмут с животными"
 
-#: includes/class-recrm-i18n.php:70
+#: includes/class-recrm-i18n.php:73
 msgid "Ceiling height"
 msgstr "Высота потолка"
 
-#: includes/class-recrm-i18n.php:71
+#: includes/class-recrm-i18n.php:74
 msgid "Gas"
 msgstr "Газ"
 
-#: includes/class-recrm-i18n.php:72
+#: includes/class-recrm-i18n.php:75
 msgid "Garage / Parking"
 msgstr "Гараж/паркинг"
 
-#: includes/class-recrm-i18n.php:73
+#: includes/class-recrm-i18n.php:76
 msgid "City"
 msgstr "Город"
 
-#: includes/class-recrm-i18n.php:74
+#: includes/class-recrm-i18n.php:77
 msgid "Hot offer"
 msgstr "Горячее предложение"
 
-#: includes/class-recrm-i18n.php:75
+#: includes/class-recrm-i18n.php:78
 msgid "Ready business"
 msgstr "Готовый бизнес"
 
-#: includes/class-recrm-i18n.php:76
+#: includes/class-recrm-i18n.php:79
 msgid "Real estate group"
 msgstr "Группа недвижимости"
 
-#: includes/class-recrm-i18n.php:77
+#: includes/class-recrm-i18n.php:80
 msgid "Date and time of change"
 msgstr "Дата и время изменения"
 
-#: includes/class-recrm-i18n.php:78
+#: includes/class-recrm-i18n.php:81
 msgid "Creation date and time"
 msgstr "Дата и время создания"
 
-#: includes/class-recrm-i18n.php:79
+#: includes/class-recrm-i18n.php:82
 msgid "Date of change"
 msgstr "Дата изменения"
 
-#: includes/class-recrm-i18n.php:80
+#: includes/class-recrm-i18n.php:83
 msgid "Date of last repair"
 msgstr "Дата проведения последнего ремонта"
 
-#: includes/class-recrm-i18n.php:81
+#: includes/class-recrm-i18n.php:84
 msgid "Creation date"
 msgstr "Дата создания"
 
-#: includes/class-recrm-i18n.php:82
+#: includes/class-recrm-i18n.php:85
 msgid "Longitude"
 msgstr "Долгота"
 
-#: includes/class-recrm-i18n.php:83
+#: includes/class-recrm-i18n.php:86
 msgid "Lease type"
 msgstr "Тип аренды"
 
-#: includes/class-recrm-i18n.php:84
+#: includes/class-recrm-i18n.php:87
 msgid "W/d branch"
 msgstr "Ж/д ветка"
 
-#: includes/class-recrm-i18n.php:85
+#: includes/class-recrm-i18n.php:88
 msgid "Living area"
 msgstr "Жилая площадь"
 
-#: includes/class-recrm-i18n.php:86
+#: includes/class-recrm-i18n.php:89
 msgid "Header"
 msgstr "Заголовок"
 
-#: includes/class-recrm-i18n.php:87
+#: includes/class-recrm-i18n.php:90
 msgid "Suburban real estate"
 msgstr "Загороданя недвижимость"
 
-#: includes/class-recrm-i18n.php:88
+#: includes/class-recrm-i18n.php:91
 msgid "Deposit in months"
 msgstr "Залог в месяцах"
 
-#: includes/class-recrm-i18n.php:89
+#: includes/class-recrm-i18n.php:92
 msgid "Foreign real estate"
 msgstr "Зарубежная недвижимость"
 
-#: includes/class-recrm-i18n.php:90
+#: includes/class-recrm-i18n.php:93
 msgid "Internet"
 msgstr "Интернет"
 
-#: includes/class-recrm-i18n.php:91
+#: includes/class-recrm-i18n.php:94
 msgid "The infrastructure of the area"
 msgstr "Инфраструктура района"
 
-#: includes/class-recrm-i18n.php:92
+#: includes/class-recrm-i18n.php:95
 msgid "Land use"
 msgstr "Использование земли"
 
-#: includes/class-recrm-i18n.php:93
+#: includes/class-recrm-i18n.php:96
 msgid "Cadastral number of the object"
 msgstr "Кадастровый номер объекта"
 
-#: includes/class-recrm-i18n.php:94
+#: includes/class-recrm-i18n.php:97
 msgid "Sewerage"
 msgstr "Канализация"
 
-#: includes/class-recrm-i18n.php:95
+#: includes/class-recrm-i18n.php:98
 msgid "The building class"
 msgstr "Класс здания"
 
-#: includes/class-recrm-i18n.php:96
+#: includes/class-recrm-i18n.php:99
 msgid "Number of loading zones"
 msgstr "Кол-во зон загрузки"
 
-#: includes/class-recrm-i18n.php:97
+#: includes/class-recrm-i18n.php:100
 msgid "Number of apartments in the building"
 msgstr "Количество квартир в здании"
 
-#: includes/class-recrm-i18n.php:98
+#: includes/class-recrm-i18n.php:101
 msgid "Number of elevators"
 msgstr "Количество лифтов"
 
-#: includes/class-recrm-i18n.php:99
+#: includes/class-recrm-i18n.php:102
 msgid "Number of Parking spaces"
 msgstr "Количество парковочных мест"
 
-#: includes/class-recrm-i18n.php:100
+#: includes/class-recrm-i18n.php:103
 msgid "The agent's Commission"
 msgstr "Комиссия агента"
 
-#: includes/class-recrm-i18n.php:101
+#: includes/class-recrm-i18n.php:104
 msgid "The Commission from the owner"
 msgstr "Комиссия от собственника"
 
-#: includes/class-recrm-i18n.php:102
+#: includes/class-recrm-i18n.php:105
 msgid "Rooms"
 msgstr "Комнат"
 
-#: includes/class-recrm-i18n.php:103
+#: includes/class-recrm-i18n.php:106
 msgid "Conditioner"
 msgstr "Кондиционер"
 
-#: includes/class-recrm-i18n.php:104
+#: includes/class-recrm-i18n.php:107
 msgid "Year-round access"
 msgstr "Круглогодичный подъезд"
 
-#: includes/class-recrm-i18n.php:105
+#: includes/class-recrm-i18n.php:108
 msgid "Elevator"
 msgstr "Лифт"
 
-#: includes/class-recrm-i18n.php:106
+#: includes/class-recrm-i18n.php:109
 msgid "Loggia"
 msgstr "Лоджия"
 
-#: includes/class-recrm-i18n.php:107
+#: includes/class-recrm-i18n.php:110
 msgid "Wall material"
 msgstr "Материал стен"
 
-#: includes/class-recrm-i18n.php:108
+#: includes/class-recrm-i18n.php:111
 msgid "Location"
 msgstr "Местоположение"
 
-#: includes/class-recrm-i18n.php:109
+#: includes/class-recrm-i18n.php:112
 msgid "Meta description"
 msgstr "Мета description"
 
-#: includes/class-recrm-i18n.php:110
+#: includes/class-recrm-i18n.php:113
 msgid "Meta keywords"
 msgstr "Мета keywords"
 
-#: includes/class-recrm-i18n.php:111
+#: includes/class-recrm-i18n.php:114
 msgid "Minutes walk to metro (integer)"
 msgstr "Минут пешком до метро (целое число)"
 
-#: includes/class-recrm-i18n.php:112
+#: includes/class-recrm-i18n.php:115
 msgid "The name of the building"
 msgstr "Название здания"
 
-#: includes/class-recrm-i18n.php:113
+#: includes/class-recrm-i18n.php:116
 msgid "The purpose of the project"
 msgstr "Назначение проекта"
 
-#: includes/class-recrm-i18n.php:114
+#: includes/class-recrm-i18n.php:117
 msgid "The presence of furniture in the living room"
 msgstr "Наличие мебели в жилых комнатах"
 
-#: includes/class-recrm-i18n.php:115
+#: includes/class-recrm-i18n.php:118
 msgid "The presence of furniture in the kitchen"
 msgstr "Наличие мебели на кухне"
 
-#: includes/class-recrm-i18n.php:116
+#: includes/class-recrm-i18n.php:119
 msgid "Availability of washing machine"
 msgstr "Наличие стиральной машины"
 
-#: includes/class-recrm-i18n.php:117
+#: includes/class-recrm-i18n.php:120
 msgid "The presence of the security Deposit"
 msgstr "Наличие страхового депозита"
 
-#: includes/class-recrm-i18n.php:118
+#: includes/class-recrm-i18n.php:121
 msgid "Having a refrigerator"
 msgstr "Наличие холодильника"
 
-#: includes/class-recrm-i18n.php:119
+#: includes/class-recrm-i18n.php:122
 msgid "Direction"
 msgstr "Направление"
 
-#: includes/class-recrm-i18n.php:120
+#: includes/class-recrm-i18n.php:123
 msgid "Human settlement"
 msgstr "Населенный пункт"
 
-#: includes/class-recrm-i18n.php:121
+#: includes/class-recrm-i18n.php:124
 msgid "New building"
 msgstr "Новостройка"
 
-#: includes/class-recrm-i18n.php:122
+#: includes/class-recrm-i18n.php:125
 msgid "House number"
 msgstr "Номер дома"
 
-#: includes/class-recrm-i18n.php:123
+#: includes/class-recrm-i18n.php:126
 msgid "Encumbrances"
 msgstr "Обременения"
 
-#: includes/class-recrm-i18n.php:124
+#: includes/class-recrm-i18n.php:127
 msgid "The object is locked"
 msgstr "Объект заблокирован"
 
-#: includes/class-recrm-i18n.php:125
+#: includes/class-recrm-i18n.php:128
 msgid "Object hidden"
 msgstr "Объект скрыт"
 
-#: includes/class-recrm-i18n.php:126
+#: includes/class-recrm-i18n.php:129
 msgid "Windows"
 msgstr "Окна"
 
-#: includes/class-recrm-i18n.php:127
+#: includes/class-recrm-i18n.php:130
 msgid "Environment"
 msgstr "Окружение"
 
-#: includes/class-recrm-i18n.php:128
+#: includes/class-recrm-i18n.php:131
 msgid "Telephone operator"
 msgstr "Оператор телефонной связи"
 
-#: includes/class-recrm-i18n.php:129
+#: includes/class-recrm-i18n.php:132
 msgid "Description"
 msgstr "Описание"
 
-#: includes/class-recrm-i18n.php:130
+#: includes/class-recrm-i18n.php:133
 msgid "From the developer"
 msgstr "От застройщика"
 
-#: includes/class-recrm-i18n.php:131
+#: includes/class-recrm-i18n.php:134
 msgid "Display the price"
 msgstr "Отображать цену"
 
-#: includes/class-recrm-i18n.php:132
+#: includes/class-recrm-i18n.php:135
 msgid "Heating"
 msgstr "Отопление"
 
-#: includes/class-recrm-i18n.php:133
+#: includes/class-recrm-i18n.php:136
 msgid "Office space"
 msgstr "Офисные помещения"
 
-#: includes/class-recrm-i18n.php:134
+#: includes/class-recrm-i18n.php:137
 msgid "Burglar alarm"
 msgstr "Охранная сигнализация"
 
-#: includes/class-recrm-i18n.php:135
+#: includes/class-recrm-i18n.php:138
 msgid "Ramp"
 msgstr "Пандус"
 
-#: includes/class-recrm-i18n.php:136
+#: includes/class-recrm-i18n.php:139
 msgid "Parking - view"
 msgstr "Паркинг - вид"
 
-#: includes/class-recrm-i18n.php:137
+#: includes/class-recrm-i18n.php:140
 msgid "Private/shared Parking"
 msgstr "Парковка собственная/общая"
 
-#: includes/class-recrm-i18n.php:138
+#: includes/class-recrm-i18n.php:141
 msgid "Layout"
 msgstr "Планировка"
 
-#: includes/class-recrm-i18n.php:139
+#: includes/class-recrm-i18n.php:142
 msgid "The maneuvering area for heavy vehicles"
 msgstr "Площадка для маневрирования большегрузного транспорта"
 
-#: includes/class-recrm-i18n.php:140
+#: includes/class-recrm-i18n.php:143
 msgid "Area"
 msgstr "Площадь"
 
-#: includes/class-recrm-i18n.php:141
+#: includes/class-recrm-i18n.php:144
 msgid "Land plot area"
 msgstr "Площадь земельного участка"
 
-#: includes/class-recrm-i18n.php:142
+#: includes/class-recrm-i18n.php:145
 msgid "Room area"
 msgstr "Площадь комнат"
 
-#: includes/class-recrm-i18n.php:143
+#: includes/class-recrm-i18n.php:146
 msgid "Building rooms size"
 msgstr "Площадь комнат"
 
-#: includes/class-recrm-i18n.php:144
+#: includes/class-recrm-i18n.php:147
 msgid "Kitchen area, m2"
 msgstr "Площадь кухни, м2"
 
-#: includes/class-recrm-i18n.php:145
+#: includes/class-recrm-i18n.php:148
 msgid "Area by rooms"
 msgstr "Площадь по комнатам"
 
-#: includes/class-recrm-i18n.php:146
+#: includes/class-recrm-i18n.php:149
 msgid "Loading equipment"
 msgstr "Погрузочное оборудование"
 
-#: includes/class-recrm-i18n.php:147
+#: includes/class-recrm-i18n.php:150
 msgid "Built"
 msgstr "Построен"
 
-#: includes/class-recrm-i18n.php:148
+#: includes/class-recrm-i18n.php:151
 msgid "Prepayment months"
 msgstr "Предоплата месяцев"
 
-#: includes/class-recrm-i18n.php:149
+#: includes/class-recrm-i18n.php:152
 msgid "Accessory"
 msgstr "Принадлежность"
 
-#: includes/class-recrm-i18n.php:150
+#: includes/class-recrm-i18n.php:153
 msgid "Separate bathroom"
 msgstr "Раздельный санузел"
 
-#: includes/class-recrm-i18n.php:151
+#: includes/class-recrm-i18n.php:154
 msgid "District"
 msgstr "Район"
 
-#: includes/class-recrm-i18n.php:152
+#: includes/class-recrm-i18n.php:155
 msgid "Region district"
 msgstr "Район"
 
-#: includes/class-recrm-i18n.php:153
+#: includes/class-recrm-i18n.php:156
 msgid "Distance to ring road"
 msgstr "Расстояние до кольцевой дороги"
 
-#: includes/class-recrm-i18n.php:154
+#: includes/class-recrm-i18n.php:157
 msgid "Distance from city, km"
 msgstr "Расстояние от города, км"
 
-#: includes/class-recrm-i18n.php:155
+#: includes/class-recrm-i18n.php:158
 msgid "Transport distance to metro, min."
 msgstr "Расстояние транспортом до метро, мин."
 
-#: includes/class-recrm-i18n.php:156
+#: includes/class-recrm-i18n.php:159
 msgid "Region"
 msgstr "Регион"
 
-#: includes/class-recrm-i18n.php:157
+#: includes/class-recrm-i18n.php:160
 msgid "Relief"
 msgstr "Рельеф"
 
-#: includes/class-recrm-i18n.php:158
+#: includes/class-recrm-i18n.php:161
 msgid "Fire extinguishing system"
 msgstr "Система пожаротушения"
 
-#: includes/class-recrm-i18n.php:159
+#: includes/class-recrm-i18n.php:162
 msgid "Stage of construction"
 msgstr "Стадия строительства"
 
-#: includes/class-recrm-i18n.php:160
+#: includes/class-recrm-i18n.php:163
 msgid "Subway station"
 msgstr "Станция метро"
 
-#: includes/class-recrm-i18n.php:161
+#: includes/class-recrm-i18n.php:164
 msgid "Status"
 msgstr "Статус"
 
-#: includes/class-recrm-i18n.php:162
+#: includes/class-recrm-i18n.php:165
 msgid "Cost"
 msgstr "Стоимость"
 
-#: includes/class-recrm-i18n.php:163
+#: includes/class-recrm-i18n.php:166
 msgid "Country"
 msgstr "Страна"
 
-#: includes/class-recrm-i18n.php:164
+#: includes/class-recrm-i18n.php:167
 msgid "Sublease"
 msgstr "Субаренда"
 
-#: includes/class-recrm-i18n.php:165
+#: includes/class-recrm-i18n.php:168
 msgid "TV"
 msgstr "ТВ"
 
-#: includes/class-recrm-i18n.php:166
+#: includes/class-recrm-i18n.php:169
 msgid "The current status of the project"
 msgstr "Текущее состояние проекта"
 
-#: includes/class-recrm-i18n.php:167
+#: includes/class-recrm-i18n.php:170
 msgid "Type"
 msgstr "Тип"
 
-#: includes/class-recrm-i18n.php:168
+#: includes/class-recrm-i18n.php:171
 msgid "The VAT type"
 msgstr "Тип НДС"
 
-#: includes/class-recrm-i18n.php:169
+#: includes/class-recrm-i18n.php:172
 msgid "Type of building"
 msgstr "Тип здания"
 
-#: includes/class-recrm-i18n.php:170
+#: includes/class-recrm-i18n.php:173
 msgid "Type of land"
 msgstr "Тип земель"
 
-#: includes/class-recrm-i18n.php:171
+#: includes/class-recrm-i18n.php:174
 msgid "Type of heating"
 msgstr "Тип отопления"
 
-#: includes/class-recrm-i18n.php:172
+#: includes/class-recrm-i18n.php:175
 msgid "The type of floor"
 msgstr "Тип перекрытий"
 
-#: includes/class-recrm-i18n.php:173
+#: includes/class-recrm-i18n.php:176
 msgid "Offer type"
 msgstr "Тип предложения"
 
-#: includes/class-recrm-i18n.php:174
+#: includes/class-recrm-i18n.php:177
 msgid "Type of transaction"
 msgstr "Тип сделки"
 
-#: includes/class-recrm-i18n.php:175
+#: includes/class-recrm-i18n.php:178
 msgid "Toponym"
 msgstr "Топоним"
 
-#: includes/class-recrm-i18n.php:176
+#: includes/class-recrm-i18n.php:179
 msgid "Street"
 msgstr "Улица"
 
-#: includes/class-recrm-i18n.php:177
+#: includes/class-recrm-i18n.php:180
 msgid "The shape of the plot"
 msgstr "Форма участка"
 
-#: includes/class-recrm-i18n.php:178 admin/class-recrm-admin.php:489
+#: includes/class-recrm-i18n.php:181 admin/class-recrm-admin.php:500
 msgid "Photos"
 msgstr "Фотографии"
 
-#: includes/class-recrm-i18n.php:179
+#: includes/class-recrm-i18n.php:182
 msgid "Photos of the building"
 msgstr "Фотографии здания"
 
-#: includes/class-recrm-i18n.php:180
+#: includes/class-recrm-i18n.php:183
 msgid "Photos of layouts"
 msgstr "Фотографии планировок"
 
-#: includes/class-recrm-i18n.php:181
+#: includes/class-recrm-i18n.php:184
 msgid "Photo"
 msgstr "Фотография"
 
-#: includes/class-recrm-i18n.php:182 includes/class-recrm-i18n.php:183
+#: includes/class-recrm-i18n.php:185 includes/class-recrm-i18n.php:186
 msgid "Price per m2"
 msgstr "Цена за м2"
 
-#: includes/class-recrm-i18n.php:184
+#: includes/class-recrm-i18n.php:187
 msgid "Latitude"
 msgstr "Широта"
 
-#: includes/class-recrm-i18n.php:185
+#: includes/class-recrm-i18n.php:188
 msgid "Exclusive contract with the owner"
 msgstr "Эксклюзивный договор с собственником"
 
-#: includes/class-recrm-i18n.php:186
+#: includes/class-recrm-i18n.php:189
 msgid "Electric power, kw"
 msgstr "Электрическая мощность, квт"
 
-#: includes/class-recrm-i18n.php:187
+#: includes/class-recrm-i18n.php:190
 msgid "Electricity"
 msgstr "Электричество"
 
-#: includes/class-recrm-i18n.php:188
+#: includes/class-recrm-i18n.php:191
 msgid "Floor"
 msgstr "Этаж"
 
-#: includes/class-recrm-i18n.php:189
+#: includes/class-recrm-i18n.php:192
 msgid "Floors"
 msgstr "Этажность"
 
-#: includes/class-recrm-i18n.php:199
+#: includes/class-recrm-i18n.php:202
 msgid "Name"
 msgstr "Имя"
 
-#: includes/class-recrm-i18n.php:200
+#: includes/class-recrm-i18n.php:203
 msgid "EMail"
 msgstr "Email"
 
-#: includes/class-recrm-i18n.php:201
+#: includes/class-recrm-i18n.php:204
 msgid "Group name"
 msgstr "Название группы"
 
-#: includes/class-recrm-i18n.php:202
+#: includes/class-recrm-i18n.php:205
 msgid "Phone"
 msgstr "Телефон"
 
-#: includes/class-recrm-i18n.php:203
+#: includes/class-recrm-i18n.php:206
 msgid "Modile phone"
 msgstr "Мобильный телефон"
 
-#: includes/class-recrm-i18n.php:204
+#: includes/class-recrm-i18n.php:207
 msgid "Position"
 msgstr "Позиция"
 
-#: includes/class-recrm-i18n.php:205
+#: includes/class-recrm-i18n.php:208
 msgid "Role"
 msgstr "Роль"
 
-#: includes/class-recrm-import.php:177
+#: includes/class-recrm-import.php:179
 msgid "API not responding"
 msgstr "API не отвечает"
 
-#: includes/class-recrm-import.php:210
+#: includes/class-recrm-import.php:214
 msgid "API key is not valid"
 msgstr "API ключ не подходит"
 
-#: includes/class-recrm-import.php:388
+#: includes/class-recrm-import.php:392
 msgid "No statuses selected in plugin settings"
 msgstr "Не выбраны статусы в настройках плагина"
 
-#: includes/class-recrm-post-types.php:82
+#: includes/class-recrm-post-types.php:85
 msgid "Estate  category"
 msgstr "Категории недвижимости"
 
-#: includes/class-recrm-post-types.php:93
-#: includes/class-recrm-post-types.php:94
-#: includes/class-recrm-post-types.php:95
+#: includes/class-recrm-post-types.php:96
+#: includes/class-recrm-post-types.php:97
+#: includes/class-recrm-post-types.php:98
 msgid "Estate"
 msgstr "Недвижимость"
 
-#: includes/class-recrm-post-types.php:132
+#: includes/class-recrm-post-types.php:135
 msgid "Agent  category"
 msgstr "Категории Агентов"
 
-#: includes/class-recrm-post-types.php:143
-#: includes/class-recrm-post-types.php:145
+#: includes/class-recrm-post-types.php:146
+#: includes/class-recrm-post-types.php:148
 msgid "Agents"
 msgstr "Агенты"
 
-#: includes/class-recrm-post-types.php:144
+#: includes/class-recrm-post-types.php:147
 msgid "Agent"
 msgstr "Агент"
 
-#: admin/class-recrm-admin.php:93
+#: admin/class-recrm-admin.php:96
 msgid "ReCRM Settings"
 msgstr "ReCRM настройки"
 
 #. Name of the plugin
-#: admin/class-recrm-admin.php:93
+#: admin/class-recrm-admin.php:96
 msgid "ReCRM"
 msgstr "ReCRM"
 
-#: admin/class-recrm-admin.php:94
+#: admin/class-recrm-admin.php:97
 msgid "Estate types"
 msgstr "Типы недвижимости"
 
-#: admin/class-recrm-admin.php:94
+#: admin/class-recrm-admin.php:97
 msgid "Estate Types & Category"
 msgstr "Типы недвижимости и категории"
 
-#: admin/class-recrm-admin.php:95
+#: admin/class-recrm-admin.php:98
 msgid "Estate props"
 msgstr "Свойства недвижимости"
 
-#: admin/class-recrm-admin.php:138
+#: admin/class-recrm-admin.php:141
 msgid "API"
 msgstr "API"
 
-#: admin/class-recrm-admin.php:143
+#: admin/class-recrm-admin.php:146
 msgid ""
 "API key ReCRM. For more secure key storage, you can define a constant "
 "define(\"RECRM_IMPORT_API_KEY\", \"YOUR_KEY\");"
@@ -699,151 +699,158 @@ msgstr ""
 "API ключ ReCRM. Для большей защиты ключа, вы можете определить константу "
 "define(\"RECRM_IMPORT_API_KEY\", \"YOUR_KEY\");"
 
-#: admin/class-recrm-admin.php:149
+#: admin/class-recrm-admin.php:152
 msgid "Key"
 msgstr "Ключ"
 
-#: admin/class-recrm-admin.php:154
+#: admin/class-recrm-admin.php:157
 msgid "Import images with watermark"
 msgstr "Загружать изображения с водяным знаком"
 
-#: admin/class-recrm-admin.php:157
+#: admin/class-recrm-admin.php:160
 msgid "Watermark"
 msgstr "Водяной знак"
 
-#: admin/class-recrm-admin.php:162
+#: admin/class-recrm-admin.php:165
+msgid "Import active"
+msgstr "Импорт активен"
+
+#: admin/class-recrm-admin.php:168
+msgid "Cron"
+msgstr "Cron"
+
+#: admin/class-recrm-admin.php:173
 msgid "Import of hidden estate"
 msgstr "Импортировать скрытые объекты"
 
-#: admin/class-recrm-admin.php:165
+#: admin/class-recrm-admin.php:176
 msgid "Hidden estate"
 msgstr "Скрытые объекты"
 
-#: admin/class-recrm-admin.php:170
+#: admin/class-recrm-admin.php:181
 msgid "Import active estate"
 msgstr "Импортировать активные объекты"
 
-#: admin/class-recrm-admin.php:173
+#: admin/class-recrm-admin.php:184
 msgid "Status Active"
 msgstr "Активный статус"
 
-#: admin/class-recrm-admin.php:178
+#: admin/class-recrm-admin.php:189
 msgid "Import successful estate"
 msgstr "Импортировать успешные объекты"
 
-#: admin/class-recrm-admin.php:181
+#: admin/class-recrm-admin.php:192
 msgid "Status Successful"
 msgstr "Успешный статус"
 
-#: admin/class-recrm-admin.php:186
+#: admin/class-recrm-admin.php:197
 msgid "Import unsuccessful estate"
 msgstr "Импортировать неудачные объекты"
 
-#: admin/class-recrm-admin.php:189
+#: admin/class-recrm-admin.php:200
 msgid "Status Unsuccessful"
 msgstr "Неудачный статус"
 
-#: admin/class-recrm-admin.php:191
+#: admin/class-recrm-admin.php:202
 msgid "Permalink Settings"
 msgstr "Настройка ЧПУ"
 
-#: admin/class-recrm-admin.php:198
+#: admin/class-recrm-admin.php:209
 msgid "Agent with taxonomy"
 msgstr "Агенты с категориями"
 
-#: admin/class-recrm-admin.php:203
+#: admin/class-recrm-admin.php:214
 #, php-format
 msgid "Agents prefix for url, example: agents, it will by like %s"
 msgstr "Префикс адреса Агентов, например agents, пример адреса с префиксом %s"
 
-#: admin/class-recrm-admin.php:206
+#: admin/class-recrm-admin.php:217
 msgid "Agents prefix"
 msgstr "Префикс страницы агентов"
 
-#: admin/class-recrm-admin.php:213
+#: admin/class-recrm-admin.php:224
 msgid "Estate with taxonomy"
 msgstr "Недвижимость с категориями"
 
-#: admin/class-recrm-admin.php:218
+#: admin/class-recrm-admin.php:229
 #, php-format
 msgid "Estate prefix for url, example: estate, it will by like %s"
 msgstr "Префикс адреса Объектов, например agents, пример адреса с префиксом %s"
 
-#: admin/class-recrm-admin.php:221
+#: admin/class-recrm-admin.php:232
 msgid "Estate prefix"
 msgstr "Префикс недвижимости"
 
-#: admin/class-recrm-admin.php:234
+#: admin/class-recrm-admin.php:245
 msgid "Estate type relation with category"
 msgstr "Недвижимости с категориями"
 
-#: admin/class-recrm-admin.php:259
+#: admin/class-recrm-admin.php:270
 msgid "Please, enable tax for Estate in settings page"
 msgstr ""
 "Пожалуйста, активируете категории для недвижимости в настройках плагина"
 
-#: admin/class-recrm-admin.php:262 admin/class-recrm-admin.php:272
-#: admin/class-recrm-admin.php:333
+#: admin/class-recrm-admin.php:273 admin/class-recrm-admin.php:283
+#: admin/class-recrm-admin.php:344
 msgid "Error"
 msgstr "Ошибка"
 
-#: admin/class-recrm-admin.php:269
+#: admin/class-recrm-admin.php:280
 msgid "Please, create a estate category"
 msgstr "Пожалуйста, создайте категории"
 
-#: admin/class-recrm-admin.php:279
+#: admin/class-recrm-admin.php:290
 msgid "Please, enter API Key"
 msgstr "Пожалуйста, укажите API ключ"
 
-#: admin/class-recrm-admin.php:293
+#: admin/class-recrm-admin.php:304
 msgid "Type:"
 msgstr "Тип:"
 
-#: admin/class-recrm-admin.php:297
+#: admin/class-recrm-admin.php:308
 msgid "Group:"
 msgstr "Группа"
 
-#: admin/class-recrm-admin.php:322
+#: admin/class-recrm-admin.php:333
 msgid "The name of the properties"
 msgstr "Название свойств"
 
-#: admin/class-recrm-admin.php:330
+#: admin/class-recrm-admin.php:341
 msgid "Please first import the objects"
 msgstr "Пожалуйста, сначала импортируйте объекты"
 
-#: admin/class-recrm-admin.php:490
+#: admin/class-recrm-admin.php:501
 msgid "Layouts"
 msgstr "Планировки"
 
-#: admin/class-recrm-admin.php:491
+#: admin/class-recrm-admin.php:502
 msgid "Building"
 msgstr "Здания"
 
-#: admin/class-recrm-admin.php:513
+#: admin/class-recrm-admin.php:524
 msgid "Gallery is empty"
 msgstr "Галерея пуста"
 
-#: admin/class-recrm-admin.php:517 admin/class-recrm-admin.php:562
+#: admin/class-recrm-admin.php:528 admin/class-recrm-admin.php:573
 msgid "Properties"
 msgstr "Свойства"
 
-#: admin/class-recrm-admin.php:530 admin/class-recrm-admin.php:575
+#: admin/class-recrm-admin.php:541 admin/class-recrm-admin.php:586
 msgid "Yes"
 msgstr "Да"
 
-#: admin/class-recrm-admin.php:534 admin/class-recrm-admin.php:579
+#: admin/class-recrm-admin.php:545 admin/class-recrm-admin.php:590
 msgid "No"
 msgstr "Нет"
 
 #. Description of the plugin
-msgid "ReCRM Description of plugin"
-msgstr "ReCRM описание плагина"
+msgid "ReCRM Import"
+msgstr "ReCRM импорт"
 
 #. URI of the plugin
-#. Author URI of the plugin
-msgid "http://01pr.ru/solutions/recrm-import-wp/"
-msgstr "http://01pr.ru/solutions/recrm-import-wp/"
+msgid "https://github.com/zetrider/wp.recrm"
+msgstr "https://github.com/zetrider/wp.recrm"
 
 #. Author of the plugin
-msgid "01pr"
-msgstr "01pr"
+msgid "ZetRider"
+msgstr "ZetRider"

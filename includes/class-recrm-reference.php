@@ -9,6 +9,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Reference {
 
     /**
@@ -55,4 +58,16 @@ class Recrm_Reference {
         return $wpdb->get_col($query);
     }
 
+    /**
+     * Schedule
+     *
+     * @since    1.1.0
+     */
+    public static function cron_add_one_min( $schedules ) {
+        $schedules['minute'] = array(
+            'interval' => 60,
+            'display'  => 'Every minute'
+        );
+        return $schedules;
+    }
 }

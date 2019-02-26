@@ -9,6 +9,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Post_Types {
 
     /**

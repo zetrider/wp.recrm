@@ -11,6 +11,8 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
 ?>
 
 <div class="wrap">

@@ -11,6 +11,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm_Deactivator {
 
     /**
@@ -19,8 +22,8 @@ class Recrm_Deactivator {
      * @since    1.0.0
      */
     public static function deactivate() {
-        // Todo ask about trash
         flush_rewrite_rules();
+        wp_clear_scheduled_hook( 'recrm_cron_import' );
     }
 
 }

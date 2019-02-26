@@ -12,18 +12,15 @@
  * Plugin Name:       ReCRM
  * Plugin URI:        https://github.com/zetrider/wp.recrm
  * Description:       ReCRM Import
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            ZetRider
- * Author URI:        https://github.com/zetrider/wp.recrm
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       recrm
  * Domain Path:       /languages
  */
 
-if ( ! defined( 'WPINC' ) ) {
-    die;
-}
+defined( 'ABSPATH' ) or die();
 
 define( 'RECRM_VERSION', '1.0.0' );
 define( 'RECRM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
@@ -82,10 +79,24 @@ recrm();
  */
 function recrm_import() {
 
+    global $wpdb;
+
     $settings = Recrm::settings();
+
+    if($settings['cron_active'] != 'on')
+    {
+        return;
+    }
+
+    if(isset($wpdb))
+    {
+        $wpdb->query('set wait_timeout = 3600');
+    }
+
     $store    = new Recrm_Store( $settings );
     $import   = new Recrm_Import_2_File( $settings );
     $import->get_temp('agent', 30);
+
     // Import agents
     $store->store(array(
         'data'             => $import->get_temp('agent', 30),
@@ -94,6 +105,7 @@ function recrm_import() {
         'post_title_key'   => 'recrm_agent_name',
         'post_content_key' => null,
     ));
+
     // Import estate
     $store->store(array(
         'data'             => $import->get_temp('estate', 30),
@@ -102,6 +114,7 @@ function recrm_import() {
         'post_title_key'   => 'recrm_estate_title',
         'post_content_key' => 'recrm_estate_description',
     ));
+
     // Move to trash cart rests
     $store->trash($import);
 

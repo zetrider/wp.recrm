@@ -15,6 +15,9 @@
  * @package    ReCRM
  * @subpackage recrm/includes
  */
+
+defined( 'ABSPATH' ) or die();
+
 class Recrm {
 
     /**
@@ -221,6 +224,13 @@ class Recrm {
         $this->loader->add_action( 'init', $post_types, 'estate', 0 );
         $this->loader->add_filter( 'generate_rewrite_rules', $post_types, 'generate_rewrite_rules' );
         $this->loader->add_filter( 'post_type_link', $post_types, 'post_type_link', 10, 2 );
+
+        $reference = new Recrm_Reference();
+
+        $this->loader->add_filter( 'cron_schedules', $reference, 'cron_add_one_min');
+
+        // Cron import
+        add_action( 'recrm_cron_import', 'recrm_import' );
     }
 
     /**
