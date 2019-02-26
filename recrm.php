@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) or die();
 
-define( 'RECRM_VERSION', '1.0.0' );
+define( 'RECRM_VERSION', '1.1.0' );
 define( 'RECRM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'RECRM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
