@@ -1,3 +1,9 @@
+.recrm_meta_box_properties .gallery-title {
+    margin-bottom: 0px;
+}
+.recrm_meta_box_properties .gallery-code {
+    margin-bottom: 15px;
+}
 .recrm_meta_box_properties .gallery .items .item {
     display: inline-block;
     width: 150px;
@@ -32,4 +38,10 @@
 .recrm_meta_box_properties .proeprties .property .property-value {
     width: 70%;
     float: right;
+}
+.recrm_meta_box_properties .proeprties .property .property-value .property-serialized {
+    word-break: break-all;
+}
+.recrm_meta_box_properties .proeprties .property .property-value .d-none {
+    display: none;
 }

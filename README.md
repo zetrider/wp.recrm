@@ -63,3 +63,47 @@ add_filter('recrm_store_tax_id', function($tax_id, $item) {
 
 ### У меня не работает ЧПУ/адрес с объектом/агентом ###
 * Перейдите в "Настройки" - "Постоянные ссылки" - нажмите кнопку "Сохранить изменения"
+
+### Как сохраняются фотографии ###
+Для агентов и объектов будут добавлены свойства, которые содержат информацию о загруженных медиафайлах.
+
+recrm_gallery_agent и recrm_gallery_estate содержат массив из всех медиафайлов, которые были загружены для объекта/агента
+
+Получить отдельно каждый тип медиафайла можно по свойствам:
+* recrm_agent_thumbnail - миниатюра (фотография) агента
+* recrm_estate_thumbnail - миниатюра (обложка) объекта
+* recrm_estate_gallery_photos - фотографии объекта
+* recrm_estate_gallery_layouts - планировки объекта
+* recrm_estate_gallery_building - планировки здания объекта
+
+В каждом свойстве сериализованный массив, в котором ключ это ID файла из базы данных, значение это внешний URL фотографии из ReCRM
+
+### Как сохранить площадь без текста (м2) ###
+Нужно добавить функцию к хуку save_post для перезаписи или добавлении нового значения. Пример:
+
+```php
+function custon_save_post_recrm_estate($post_id, $post, $update)
+{
+    $area = get_post_meta($post_id, 'recrm_estate_area', true);
+    $expl = explode(' ', $area);
+    update_post_meta($post_id, 'recrm_estate_area_num', $expl[0]);
+}
+add_action('save_post_recrm_estate', 'custon_save_post_recrm_estate', 10, 3);
+```
+
+### Как переопределить категорию в зависимости от типа сделки ###
+Нужно добавить фильтр recrm_store_tax_id. Пример:
+
+```php
+add_filter('recrm_store_tax_id', function($tax_id, $item) {
+    if($item['recrm_estate_deal'] == 'аренда')
+    {
+        $tax_id = 16;
+    }
+    elseif($item['recrm_estate_deal'] == 'продажа')
+    {
+        $tax_id = 17;
+    }
+    return $tax_id;
+}, 10, 2);
+```

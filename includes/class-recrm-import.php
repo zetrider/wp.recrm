@@ -341,7 +341,10 @@ class Recrm_Import {
             $agent_id = array_search($instance->url, $this->url_images);
             $images   = is_array( $instance->response->pictures ) ? $instance->response->pictures : array();
             foreach($images AS $image) {
-                $this->data[$agent_id]['recrm_agent_thumbnail'][] = $image->url;
+                if(!empty($image->url))
+                {
+                    $this->data[$agent_id]['recrm_agent_thumbnail'][] = $image->url;
+                }
             }
         });
         $MultiCurl->start();
@@ -483,7 +486,10 @@ class Recrm_Import {
             }
             $images = is_array( $instance->response->pictures ) ? $instance->response->pictures : array();
             foreach($images AS $image) {
-                $this->data[$estate_id]['recrm_estate_'.$prop_name][] = $image->url;
+                if(!empty($image->url))
+                {
+                    $this->data[$estate_id]['recrm_estate_'.$prop_name][] = $image->url;
+                }
             }
         });
         $MultiCurl->error(function($instance) {

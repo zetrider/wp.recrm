@@ -67,7 +67,7 @@ class Recrm_Admin {
      */
     public function enqueue_scripts() {
 
-        //wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/recrm-admin.js', array( 'jquery' ), $this->version, false );
+        wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/recrm-admin.js', array( 'jquery' ), $this->version, false );
 
     }
 
@@ -510,7 +510,8 @@ class Recrm_Admin {
                     $counter++;
             ?>
                 <div class="gallery">
-                    <h4><?php echo $names[$type]; ?></h4>
+                    <h4 class="gallery-title"><?php echo $names[$type]; ?></h4>
+                    <div class="gallery-code"><small>recrm_gallery_estate[<?=$type?>]</small></div>
                     <div class="items">
                         <?php foreach($images AS $img_id => $img_external_url): ?>
                             <div class="item" style="background-image: url(<?php echo $img_external_url; ?>);"></div>
@@ -532,7 +533,7 @@ class Recrm_Admin {
                 foreach($res as $row):
                     $name = $propsNames[$row->meta_key];
                     $val  = $row->meta_value;
-                    if(strlen($val) <= 0 OR is_serialized($val))
+                    if(strlen($val) <= 0)
                     {
                         continue;
                     }
@@ -551,7 +552,14 @@ class Recrm_Admin {
                         <small><?=$row->meta_key?></small>
                     </div>
                     <div class="property-value">
-                        <?=$val?>
+                        <?if(is_serialized($val)):?>
+                            <div class="property-serialized" data-recrm-property-show="parent">
+                                <a href="#" data-recrm-property-show="button">Serialized (show)</a>
+                                <div class="d-none" data-recrm-property-show="content"><?=unserialize($val)?></div>
+                            </div>
+                        <?else:?>
+                            <?=$val?>
+                        <?endif?>
                     </div>
                 </div>
                 <?endforeach?>
@@ -577,7 +585,7 @@ class Recrm_Admin {
                 foreach($res as $row):
                     $name = $propsNames[$row->meta_key];
                     $val  = $row->meta_value;
-                    if(strlen($val) <= 0 OR is_serialized($val))
+                    if(strlen($val) <= 0)
                     {
                         continue;
                     }
@@ -596,7 +604,14 @@ class Recrm_Admin {
                         <small><?=$row->meta_key?></small>
                     </div>
                     <div class="property-value">
-                        <?=$val?>
+                        <?if(is_serialized($val)):?>
+                            <div class="property-serialized" data-recrm-property-show="parent">
+                                <a href="#" data-recrm-property-show="button">Serialized (show)</a>
+                                <div class="d-none" data-recrm-property-show="content"><?=unserialize($val)?></div>
+                            </div>
+                        <?else:?>
+                            <?=$val?>
+                        <?endif?>
                     </div>
                 </div>
                 <?endforeach?>
