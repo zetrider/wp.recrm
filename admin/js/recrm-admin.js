@@ -11,7 +11,7 @@ var recrmPluginAdmin = {
         $content.slideDown();
     }
 }
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
     var $recrnPropertyShowBtn = $('[data-recrm-property-show="button"]');
     if($recrnPropertyShowBtn.length)
     {

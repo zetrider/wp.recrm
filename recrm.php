@@ -12,7 +12,7 @@
  * Plugin Name:       ReCRM
  * Plugin URI:        https://github.com/zetrider/wp.recrm
  * Description:       ReCRM Import
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            ZetRider
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) or die();
 
-define( 'RECRM_VERSION', '1.1.1' );
+define( 'RECRM_VERSION', '1.1.2' );
 define( 'RECRM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'RECRM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
