@@ -132,11 +132,11 @@ class Recrm_Import_2_File extends Recrm_Import {
         $search = glob($this->upload_tmp . '/'.$type.'_'.md5($this->api_key));
         if(count($search))
         {
+            $res = $this->temp_data($type, 'get');
             foreach($search AS $file)
             {
                 @unlink($file);
             }
-            $res = $this->temp_data($type, 'get');
         }
         return $res;
     }

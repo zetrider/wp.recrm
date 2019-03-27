@@ -313,7 +313,7 @@ class Recrm_Store {
             $ids  = is_array($data['ids']) ? $data['ids'] : array();
             if(count($ids))
             {
-                $meta_key  = esc_sql('recrm_'.$post_key.'_id');
+                $meta_key  = esc_sql('recrm_'.$type.'_id');
                 $meta_val  = implode(',', array_map(function($v) { return "'".intval($v)."'"; }, $ids));
                 $destroy   = $wpdb->get_col("SELECT `post_id` FROM `$wpdb->postmeta` WHERE `meta_key` = '".$meta_key."' AND `meta_value` NOT IN ($meta_val)");
                 if(count($destroy))
