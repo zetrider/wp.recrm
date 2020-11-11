@@ -135,6 +135,7 @@ class Recrm_Import {
         $this->api_key = isset( $settings['api_key'] ) ? $settings['api_key'] : '';
 
         $this->with_watermark = isset( $settings['with_watermark'] ) ? $settings['with_watermark'] : '';
+        $this->with_hidden    = isset( $settings['with_hidden'] ) ? $settings['with_hidden'] : '';
         $this->with_status_0  = isset( $settings['with_status_0'] ) ? $settings['with_status_0'] : '';
         $this->with_status_1  = isset( $settings['with_status_1'] ) ? $settings['with_status_1'] : '';
         $this->with_status_2  = isset( $settings['with_status_2'] ) ? $settings['with_status_2'] : '';
